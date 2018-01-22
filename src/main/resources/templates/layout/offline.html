@@ -11,12 +11,12 @@
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper blue darken-4 main-navigation ">
             <div class="container">
                 <ul id="nav-left" class="right hide-on-med-and-down">
                     <li><a th:href="@{'/'}">Home</a></li>
-                    <li><a th:href="@{'/login'}">Login</a></li>
-                    <li><a th:href="@{'/register'}">Register</a></li>
+                    <li><a class="btn waves-effect waves-light" th:href="@{'/login'}">Login</a></li>
+                    <li><a class="btn waves-effect waves-light" th:href="@{'/register'}">Register</a></li>
                 </ul>
             </div>
         </div>
@@ -24,7 +24,7 @@
     <th:main layout:fragment="content">
         <p>Default content</p>
     </th:main>
-    <footer class="page-footer">
+    <footer class="page-footer black darken-4 ">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -34,12 +34,12 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
-                        <li><a class="white-text" href="">Github</a></li>
+                        <li><a class="white-text" href="https://github.com/juanmarques">Github</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright">
+        <div class="footer-copyright black darken-4 ">
             <div class="container">
                 All rights reserved &nbsp;|&nbsp; JME &nbsp;|&nbsp; 01/2018
             </div>
